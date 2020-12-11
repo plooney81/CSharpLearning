@@ -1,0 +1,15 @@
+/Users/plooney/c#/basics/bin/Debug/net5.0/basics.deps.json
+/Users/plooney/c#/basics/bin/Debug/net5.0/basics.runtimeconfig.json
+/Users/plooney/c#/basics/bin/Debug/net5.0/basics.runtimeconfig.dev.json
+/Users/plooney/c#/basics/bin/Debug/net5.0/basics.dll
+/Users/plooney/c#/basics/bin/Debug/net5.0/ref/basics.dll
+/Users/plooney/c#/basics/bin/Debug/net5.0/basics.pdb
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.csprojAssemblyReference.cache
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.AssemblyInfoInputs.cache
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.AssemblyInfo.cs
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.csproj.CoreCompileInputs.cache
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.dll
+/Users/plooney/c#/basics/obj/Debug/net5.0/ref/basics.dll
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.pdb
+/Users/plooney/c#/basics/obj/Debug/net5.0/basics.genruntimeconfig.cache

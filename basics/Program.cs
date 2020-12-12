@@ -8,7 +8,12 @@ namespace basics
         // application. Any command line arguments supplied when the application is launched are available in the args array. 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("    /|");
+            Console.WriteLine("   / |");
+            Console.WriteLine("  /  |");
+            Console.WriteLine(" /___|");
+
+            Console.ReadLine();
         }
     }
 }

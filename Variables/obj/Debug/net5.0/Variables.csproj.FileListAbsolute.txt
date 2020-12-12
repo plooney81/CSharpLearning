@@ -1,0 +1,15 @@
+/Users/plooney/c#/Variables/bin/Debug/net5.0/Variables.deps.json
+/Users/plooney/c#/Variables/bin/Debug/net5.0/Variables.runtimeconfig.json
+/Users/plooney/c#/Variables/bin/Debug/net5.0/Variables.runtimeconfig.dev.json
+/Users/plooney/c#/Variables/bin/Debug/net5.0/Variables.dll
+/Users/plooney/c#/Variables/bin/Debug/net5.0/ref/Variables.dll
+/Users/plooney/c#/Variables/bin/Debug/net5.0/Variables.pdb
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.csprojAssemblyReference.cache
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.AssemblyInfoInputs.cache
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.AssemblyInfo.cs
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.csproj.CoreCompileInputs.cache
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.dll
+/Users/plooney/c#/Variables/obj/Debug/net5.0/ref/Variables.dll
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.pdb
+/Users/plooney/c#/Variables/obj/Debug/net5.0/Variables.genruntimeconfig.cache

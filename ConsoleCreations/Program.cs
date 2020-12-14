@@ -11,7 +11,9 @@ namespace ConsoleCreations
 
             string dancingMan = "c_    ---\n  \\\\__|__|__\n   \\( 0_0)\n     > ~ >\n   /   / \\\\\n   /   /  \\\\\n   \\   )  c/\n   /   /\n  /   /|\n (   (  \\\n |   |   \\\n |  / \\   )\n |  | )  |\n";
             Console.WriteLine(dancingMan);
-
+            // bool answerThree = 500 > 24;
+            // bool answerFour = "coffee".Contains('a');
+            // Console.WriteLine(answerThree + "," + answerFour);
         }
     }
 }

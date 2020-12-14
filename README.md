@@ -2,7 +2,7 @@
 
 - [About this repository](#about-this-repository)
 - [**General**](#general)
-- [**Lessons Learned**](#lessons-learned)
+- [Lessons Learned](#lessons-learned)
   
 ## About this repository
 * Main goals of this repository:
@@ -18,8 +18,14 @@
   * Numbers --> Folder for learning about numbers and how to manipulate them in C#.
   * Calculator --> Expanding on numbers learning, learned how to get user input using the ReadLine built in method.
   * Madlib --> Expanded on both my understanding of user inputs and string manipulation. Learned an alternate to perform string concatenation using the $"{}" syntax.
+  * Arrays --> How to create an array and access elements in an array in C#.
 
 ## Lessons Learned
 * C# is a type-safe programming language, which I am not used to. Essentially it means you have to do a little more planning when assigning/declaring/initializing variables.
   > In computer science, type safety is the extent to which a programming language discourages or prevents type errors.
   > - [Wikipedia](https://en.wikipedia.org/wiki/Type_safety)
+
+* When creating an empty array in C# you still need to specify the length of the array. Here is an example below.
+```C#
+string [] friends = new string[5]; //Here we create an empty array of strings with a length 5
+```

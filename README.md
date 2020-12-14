@@ -20,6 +20,7 @@
   * Madlib --> Expanded on both my understanding of user inputs and string manipulation. Learned an alternate to perform string concatenation using the $"{}" syntax.
   * Arrays --> How to create an array and access elements in an array in C#.
   * Methods --> How to create methods (functions) in C#. How to define their parameters, also can give these default values.
+  * IfStatments --> if, else if, else syntax in C#. Also explored comparison operators in C# and even dabbled into ternary statements in C#. 
 
 ## Lessons Learned
 * C# is a type-safe programming language, which I am not used to. Essentially it means you have to do a little more planning when assigning/declaring/initializing variables.

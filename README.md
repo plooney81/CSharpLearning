@@ -57,4 +57,18 @@ static string[] friends(string[] friendsArray)
     return friendsArray;
 }
 ```
-  
+
+* Named arguments
+  * C# has a way to distinguish between what argument you would like to specify for a method. See below for an example:
+```C#
+static void Main(string[] args)
+{
+  //If we just want to specify one of the parameters we can do that my using its name
+  someMethod(d: 20); 
+}
+
+static void someMethod(int a = 0; int b = 0; int c = 0; int d = 0)
+{
+  Console.WriteLine($"a --> {a} b --> {b} c --> {c} d --> {d}");
+}
+```

@@ -22,6 +22,7 @@
   * Arrays --> How to create an array and access elements in an array in C#.
   * Methods --> How to create methods (functions) in C#. How to define their parameters, also can give these default values.
   * IfStatments --> if, else if, else syntax in C#. Also explored comparison operators in C# and even dabbled into ternary statements in C#. 
+  * SwitchStatements --> Explores the switchStatment syntax for C#. Very similar to JavaScript!
 
 ## Lessons Learned
 * C# is a statically-typed language, meaning that it checks data types before the program is run.

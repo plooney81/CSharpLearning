@@ -19,6 +19,7 @@
   * Calculator --> Expanding on numbers learning, learned how to get user input using the ReadLine built in method.
   * Madlib --> Expanded on both my understanding of user inputs and string manipulation. Learned an alternate to perform string concatenation using the $"{}" syntax.
   * Arrays --> How to create an array and access elements in an array in C#.
+  * Methods --> How to create methods (functions) in C#. How to define their parameters, also can give these default values.
 
 ## Lessons Learned
 * C# is a type-safe programming language, which I am not used to. Essentially it means you have to do a little more planning when assigning/declaring/initializing variables.
@@ -29,3 +30,26 @@
 ```C#
 string [] friends = new string[5]; //Here we create an empty array of strings with a length 5
 ```
+
+* When creating a method (or a function) in C#, you have to define the data type for each parameter. See the example below:
+```C#
+//This creates a method called SayHi which has a return type of void (i.e. it wont return anything)
+//It has two arguments, the first is named user it has a type of string and a default value of "Default"
+//Second, it has an argument name age, a type of integer and a default value of 26
+static void SayHi(string User = "Default", int age = 26) 
+{
+    Console.WriteLine($"Hello {User}, you are {age}");
+}
+```
+
+* If we want to return data from a function in C#, we need to initialize the function with that data's return type. See below:
+```C#
+//This tells C# that we want to return an array of strings from this function that we named Friends.
+//Also note that we are receiving an argument with that same data type as the only argument for this function.
+static string[] friends(string[] friendsArray)
+{
+    friendsArray[0] = "Chandler";
+    return friendsArray;
+}
+```
+  

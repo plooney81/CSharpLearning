@@ -24,6 +24,7 @@
   * IfStatments --> if, else if, else syntax in C#. Also explored comparison operators in C# and even dabbled into ternary statements in C#. 
   * SwitchStatements --> Explores the switchStatment syntax for C#. Very similar to JavaScript!
   * PasswordChecker --> Practices switchStatement as well as exploring how to use Regular Expressions in C#;
+  * MethodOverloading --> Explores a new concept called method overloading. Essentially its a functions with the same names that have either differing parameters or differing parameter types...See the lessons learned section if you are interested
 
 ## Lessons Learned
 * C# is a statically-typed language, meaning that it checks data types before the program is run.
@@ -72,3 +73,7 @@ static void someMethod(int a = 0; int b = 0; int c = 0; int d = 0)
   Console.WriteLine($"a --> {a} b --> {b} c --> {c} d --> {d}");
 }
 ```
+
+* Method overloading
+  * Each version of a method that has a either different parameters or different parameter types is called an overload...check out the picture below
+![Overloading](MethodOverloading.png)

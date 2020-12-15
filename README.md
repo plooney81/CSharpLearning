@@ -77,3 +77,30 @@ static void someMethod(int a = 0; int b = 0; int c = 0; int d = 0)
 * Method overloading
   * Each version of a method that has a either different parameters or different parameter types is called an overload...check out the picture below
 ![Overloading](MethodOverloading.png)
+
+* Out Parameter
+  * Although methods can only return one value, we can sometimes still get two pieces of information from them. 
+  * The method below (Int32.TryPare() method) tries to parse its input as an integer.
+    * If it can:
+      * Returns true and sets a variable to the new Int Value.
+    * If it can't:
+      * Returns false and sets a variable to null.
+```C#
+string ageAsString = "45";
+bool outcome = Int32.TryParse(ageAsString, out int ageAsInt);
+Console.WriteLine(ageAsInt + " " + outcome); //Outputs "true 45" to the console.
+```
+  * Here is an example of how to create your own method that uses an Out Parameter
+```C#
+  static void Main(string[] args)
+  {
+      string whisperText = Whisper("YELLING", out bool outcome);
+      Console.WriteLine(whisperText + " " + outcome); //Outputs "yelling true" to the console.
+  }
+
+  static string Whisper(string phrase, out bool didWhisper)
+  {
+      didWhisper = true;
+      return phrase.ToLower();
+  }
+```
